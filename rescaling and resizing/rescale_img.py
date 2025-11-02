@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('./read/photos/cat.jpg')
+img = cv.imread('./photos/cat.jpg')
 cv.imshow('Original Cat', img)
 
 def rescaleFrame(frame, scale=0.75):
