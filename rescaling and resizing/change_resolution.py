@@ -1,4 +1,4 @@
-import cv2 as cv # type: ignore
+import cv2 as cv 
 
 capture=cv.VideoCapture(0)
 def changeRes(width,height):

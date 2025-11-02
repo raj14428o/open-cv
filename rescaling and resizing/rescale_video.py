@@ -1,4 +1,4 @@
-import cv2 as cv # type: ignore
+import cv2 as cv 
 
 def rescaleFrame(frame,scale=0.75):
     width=int(frame.shape[1] * scale)
